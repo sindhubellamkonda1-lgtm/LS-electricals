@@ -9,7 +9,7 @@ import {
 } from '@ant-design/icons';
 
 const { Title, Text } = Typography;
-const API = 'http://127.0.0.1:8000';
+const API = 'https://ls-electricals-api.onrender.com';
 
 const GRAPH_TITLES = {
   'load_curve.png':        'Load Profile',

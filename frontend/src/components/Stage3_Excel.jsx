@@ -10,7 +10,7 @@ import {
 
 const { Dragger } = Upload;
 const { Title, Text } = Typography;
-const API = 'http://127.0.0.1:8000';
+const API = 'https://ls-electricals-api.onrender.com';
 
 export default function Stage3_Excel({ editedJson, onDone, onBack }) {
   const [excelFile, setExcelFile] = useState(null);
