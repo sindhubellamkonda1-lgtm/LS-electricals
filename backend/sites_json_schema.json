@@ -1,0 +1,137 @@
+{
+  "type": "object",
+  "properties": {
+
+    "1_company_details": {
+      "type": "object",
+      "properties": {
+        "company_name": {"type": ["string","null"]},
+        "address_or_location": {"type": ["string","null"]},
+        "contact_person": {"type": ["string","null"]},
+        "designation": {"type": ["string","null"]},
+        "phone_number": {"type": ["string","null"]},
+        "email": {"type": ["string","null"]}
+      }
+    },
+
+    "2_electricity_details": {
+      "type": "object",
+      "properties": {
+        "source_of_power": {"type":["string","null"]},
+        "contract_demand_kva_kw": {"type":["string","null"]},
+        "billed_demand_kva_kw": {"type":["string","null"]},
+        "minimum_pf_required_by_seb": {"type":["string","null"]},
+        "average_power_factor": {"type":["string","null"]}
+      }
+    },
+
+    "3_facility_details": {
+      "type":"object",
+      "properties":{
+        "transformer":{"type":["object","null"]},
+        "dg_or_tg":{"type":["object","null"]},
+        "capacitors_ht_lt":{"type":["object","null"]},
+        "pccs":{"type":["object","null"]},
+        "mccs":{"type":["object","null"]}
+      }
+    },
+
+    "4_non_linear_loads":{
+      "type":["object","null"]
+    },
+
+    "5_total_connected_load_kw":{
+      "type":["string","null"]
+    },
+
+    "6_operating_pattern":{
+      "type":["object","null"]
+    },
+
+    "7_ammeters_digital_meters_present":{
+      "type":["string","null"]
+    },
+
+    "8_shutdown_availability":{
+      "type":["object","null"]
+    },
+
+    "9_nature_of_problem_faced":{
+      "type":["object","null"]
+    },
+
+    "10_specific_reason_for_audit":{
+      "type":["string","null"]
+    },
+
+    "11_single_line_diagram_attached":{
+      "type":["string","null"]
+    },
+
+    "site_measurements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "company_name":  {"type": ["string","null"]},
+          "date":          {"type": ["string","null"]},
+          "feeder_name":   {"type": ["string","null"]},
+          "file_name":     {"type": ["string","null"]},
+          "timing": {
+            "type": ["object","null"],
+            "properties": {
+              "start": {"type": ["string","null"]},
+              "end":   {"type": ["string","null"]}
+            }
+          },
+          "capacitor_switching_sequence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "from":   {"type": ["string","null"]},
+                "to":     {"type": ["string","null"]},
+                "status": {"type": ["string","null"]}
+              }
+            }
+          },
+          "capacitor_bank_details": {
+            "type": ["object","null"],
+            "properties": {
+              "rating_kvar":        {"type": ["number","null"]},
+              "number_of_steps":    {"type": ["integer","null"]},
+              "reactors_present":   {"type": ["boolean","null"]},
+              "kvar_on_condition":  {"type": ["number","null"]},
+              "down_level_details": {"type": ["string","object","null"]}
+            }
+          },
+          "transformer_nameplate_details": {
+            "type": ["object","null"],
+            "properties": {
+              "rating_kva":        {"type": ["number","null"]},
+              "impedance_percent": {"type": ["number","null"]},
+              "voltage_level": {
+                "type": ["object","null"],
+                "properties": {
+                  "hv": {"type": ["string","null"]},
+                  "lv": {"type": ["string","null"]}
+                }
+              },
+              "vector_group": {"type": ["string","null"]},
+              "hv_lv_amps": {
+                "type": ["object","null"],
+                "properties": {
+                  "hv_amps": {"type": ["number","null"]},
+                  "lv_amps": {"type": ["number","null"]}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  },
+
+  "required":[]
+}

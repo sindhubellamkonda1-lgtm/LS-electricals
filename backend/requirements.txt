@@ -1,0 +1,15 @@
+
+pandas
+openpyxl
+pyarrow
+pyyaml
+tqdm
+streamlit
+fastapi
+uvicorn
+python-multipart
+matplotlib
+pillow
+openai
+pdf2image
+pymupdf

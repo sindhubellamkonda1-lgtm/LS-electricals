@@ -1,0 +1,167 @@
+[
+  {
+    "timestamp": "2026-04-09 10:06:17.781258",
+    "file": "Site Data.pdf",
+    "processing_seconds": 24.985071,
+    "input_tokens": 4775,
+    "output_tokens": 947,
+    "total_tokens": 5722,
+    "estimated_cost_usd": 0.03808,
+    "estimated_cost_inr": 3.16,
+    "json_output": "Site Data_e6006eb0.json"
+  },
+  {
+    "timestamp": "2026-04-09 11:29:34.291875",
+    "file": "Site Data.pdf",
+    "processing_seconds": 14.298786,
+    "input_tokens": 4775,
+    "output_tokens": 951,
+    "total_tokens": 5726,
+    "estimated_cost_usd": 0.03814,
+    "estimated_cost_inr": 3.17,
+    "json_output": "Site Data_1d6b653b.json"
+  },
+  {
+    "timestamp": "2026-04-09 12:51:49.099201",
+    "file": "Site Data.pdf",
+    "processing_seconds": 86.342794,
+    "input_tokens": 4081,
+    "output_tokens": 936,
+    "total_tokens": 5017,
+    "estimated_cost_usd": 0.034445,
+    "estimated_cost_inr": 2.86,
+    "json_output": "Site Data_441d5c41.json"
+  },
+  {
+    "timestamp": "2026-04-09 12:57:34.256125",
+    "file": "Site Data.pdf",
+    "processing_seconds": 13.1305,
+    "input_tokens": 4081,
+    "output_tokens": 862,
+    "total_tokens": 4943,
+    "estimated_cost_usd": 0.033335,
+    "estimated_cost_inr": 2.77,
+    "json_output": "Site Data_894de7f2.json"
+  },
+  {
+    "timestamp": "2026-04-09 13:10:48.158086",
+    "file": "Site Data.pdf",
+    "processing_seconds": 12.680276,
+    "input_tokens": 4081,
+    "output_tokens": 926,
+    "total_tokens": 5007,
+    "estimated_cost_usd": 0.034295,
+    "estimated_cost_inr": 2.85,
+    "json_output": "Site Data_66509a59.json"
+  },
+  {
+    "timestamp": "2026-04-09 13:17:52.163739",
+    "file": "Site Data.pdf",
+    "processing_seconds": 14.512902,
+    "input_tokens": 4081,
+    "output_tokens": 894,
+    "total_tokens": 4975,
+    "estimated_cost_usd": 0.033815,
+    "estimated_cost_inr": 2.81,
+    "json_output": "Site Data_51af55a2.json"
+  },
+  {
+    "timestamp": "2026-04-09 14:48:03.990989",
+    "file": "Site Data.pdf",
+    "processing_seconds": 13.775451,
+    "input_tokens": 4775,
+    "output_tokens": 941,
+    "total_tokens": 5716,
+    "estimated_cost_usd": 0.03799,
+    "estimated_cost_inr": 3.15,
+    "json_output": "Site Data_90aeeff5.json"
+  },
+  {
+    "timestamp": "2026-04-09 15:14:22.579358",
+    "file": "Site Data.pdf",
+    "processing_seconds": 13.779641,
+    "input_tokens": 4775,
+    "output_tokens": 949,
+    "total_tokens": 5724,
+    "estimated_cost_usd": 0.03811,
+    "estimated_cost_inr": 3.16,
+    "json_output": "Site Data_a6f65869.json"
+  },
+  {
+    "timestamp": "2026-04-17 15:28:56.205986",
+    "file": "Site Data.pdf",
+    "processing_seconds": 10.985339,
+    "input_tokens": 4775,
+    "output_tokens": 952,
+    "total_tokens": 5727,
+    "estimated_cost_usd": 0.038155,
+    "estimated_cost_inr": 3.17,
+    "json_output": "Site Data_f908db07.json"
+  },
+  {
+    "timestamp": "2026-04-17 15:31:39.374715",
+    "file": "Site Data.pdf",
+    "processing_seconds": 10.804964,
+    "input_tokens": 4775,
+    "output_tokens": 946,
+    "total_tokens": 5721,
+    "estimated_cost_usd": 0.038065,
+    "estimated_cost_inr": 3.16,
+    "json_output": "Site Data_ac99a8c3.json"
+  },
+  {
+    "timestamp": "2026-04-17 18:27:41.965514",
+    "file": "Site Data.pdf",
+    "processing_seconds": 11.569907,
+    "input_tokens": 4775,
+    "output_tokens": 946,
+    "total_tokens": 5721,
+    "estimated_cost_usd": 0.038065,
+    "estimated_cost_inr": 3.16,
+    "json_output": "Site Data_a453c610.json"
+  },
+  {
+    "timestamp": "2026-05-04 12:49:16.449190",
+    "file": "Site Data.pdf",
+    "processing_seconds": 10.820851,
+    "input_tokens": 4775,
+    "output_tokens": 946,
+    "total_tokens": 5721,
+    "estimated_cost_usd": 0.038065,
+    "estimated_cost_inr": 3.16,
+    "json_output": "Site Data_d8b4e1de.json"
+  },
+  {
+    "timestamp": "2026-05-04 13:20:33.692246",
+    "file": "Site Data.pdf",
+    "processing_seconds": 13.165259,
+    "input_tokens": 4775,
+    "output_tokens": 962,
+    "total_tokens": 5737,
+    "estimated_cost_usd": 0.038305,
+    "estimated_cost_inr": 3.18,
+    "json_output": "Site Data_4c8524a1.json"
+  },
+  {
+    "timestamp": "2026-05-04 13:28:20.519054",
+    "file": "Site Data.pdf",
+    "processing_seconds": 8.809547,
+    "input_tokens": 4775,
+    "output_tokens": 954,
+    "total_tokens": 5729,
+    "estimated_cost_usd": 0.038185,
+    "estimated_cost_inr": 3.17,
+    "json_output": "Site Data_efd1b27c.json"
+  },
+  {
+    "timestamp": "2026-05-26 15:30:12.146622",
+    "file": "Site Data.pdf",
+    "processing_seconds": 29.016011,
+    "input_tokens": 4775,
+    "output_tokens": 950,
+    "total_tokens": 5725,
+    "estimated_cost_usd": 0.038125,
+    "estimated_cost_inr": 3.16,
+    "json_output": "Site Data_0b886011.json"
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "1_company_details": {
+    "company_name": "SAI DEEPA ROCK DRILLS PVT LTD (RADIANT FORGING)",
+    "address_or_location": "Cherlapally",
+    "contact_person": "Y. Abhishek",
+    "designation": "Manager Electrical maintenance",
+    "phone_number": "9014388924",
+    "email": "support@saideepa.com; mmkr@saideepa.com"
+  },
+  "2_electricity_details": {
+    "source_of_power": "EB",
+    "contract_demand_kva_kw": "750 KVA",
+    "billed_demand_kva_kw": "569 KVA",
+    "minimum_pf_required_by_seb": "1",
+    "average_power_factor": "0.996"
+  },
+  "3_facility_details": {
+    "transformer": {
+      "nos": 1,
+      "rating": "800 KVA"
+    },
+    "dg_or_tg": {
+      "nos": 1,
+      "rating": "40 KVA"
+    },
+    "capacitors_ht_lt": {
+      "nos": 1,
+      "rating": "140 kVAR"
+    },
+    "pccs": {
+      "nos": 1,
+      "rating": "1600 A"
+    },
+    "mccs": null
+  },
+  "4_non_linear_loads": {
+    "total_non_linear_load_present_kw": null,
+    "thyristors_vfd": {
+      "present": false,
+      "kw": null
+    },
+    "furnace": {
+      "present": true,
+      "type": "Induction",
+      "kw": 450
+    },
+    "ups": {
+      "present": true,
+      "kw_kva": 1
+    },
+    "others": {
+      "present": true,
+      "type": "hammer motor",
+      "kw_kva": 100
+    },
+    "welding_loads": {
+      "present": false,
+      "kw_kva": null
+    }
+  },
+  "5_total_connected_load_kw": null,
+  "6_operating_pattern": null,
+  "7_ammeters_digital_meters_present": "YES",
+  "8_shutdown_availability": {
+    "available": null,
+    "time_minutes": null
+  },
+  "9_nature_of_problem_faced": {
+    "capacitor_failure": false,
+    "drives_failure": true,
+    "electronic_cards_failure": false,
+    "nuisance_tripping": false,
+    "flicker_observance": false,
+    "overheating_of_cables_electrical_equipments_panels": false,
+    "others": false
+  },
+  "10_specific_reason_for_audit": "NA",
+  "11_single_line_diagram_attached": null,
+  "site_measurements": [
+    {
+      "company_name": "RADIANT FORGING",
+      "date": "24/01/2026",
+      "feeder_name": "Incomer",
+      "file_name": "RADIA01",
+      "timing": {
+        "start": "10:20AM",
+        "end": "11:00AM"
+      },
+      "capacitor_switching_sequence": [
+        {
+          "from": "10:20 to 10:40",
+          "to": null,
+          "status": "Cap-on"
+        },
+        {
+          "from": "10:40 to 10:50",
+          "to": null,
+          "status": "Cap-off"
+        },
+        {
+          "from": "10:50 to 11:00",
+          "to": null,
+          "status": "Cap-on"
+        }
+      ],
+      "capacitor_bank_details": {
+        "rating_kvar": 140,
+        "number_of_steps": 7,
+        "reactors_present": false,
+        "kvar_on_condition": 110,
+        "down_level_details": null
+      },
+      "transformer_nameplate_details": {
+        "rating_kva": 800,
+        "impedance_percent": 4.9,
+        "voltage_level": {
+          "hv": "11KV",
+          "lv": "433V"
+        },
+        "vector_group": "Dyn11",
+        "hv_lv_amps": {
+          "hv_amps": 41.98,
+          "lv_amps": 1066
+        }
+      }
+    }
+  ]
+}
