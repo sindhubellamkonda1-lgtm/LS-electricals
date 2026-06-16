@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LS-electricals/static/css/main.4e55b825.css",
+    "main.js": "/LS-electricals/static/js/main.e312ae95.js",
+    "static/js/453.525c54ff.chunk.js": "/LS-electricals/static/js/453.525c54ff.chunk.js",
+    "static/media/Sangam_logo_2025.png": "/LS-electricals/static/media/Sangam_logo_2025.fe2107e08a3b401348cf.png",
+    "index.html": "/LS-electricals/index.html",
+    "main.4e55b825.css.map": "/LS-electricals/static/css/main.4e55b825.css.map",
+    "main.e312ae95.js.map": "/LS-electricals/static/js/main.e312ae95.js.map",
+    "453.525c54ff.chunk.js.map": "/LS-electricals/static/js/453.525c54ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e55b825.css",
+    "static/js/main.e312ae95.js"
+  ]
+}
