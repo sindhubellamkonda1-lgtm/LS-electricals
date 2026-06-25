@@ -360,6 +360,7 @@ app.add_middleware(
         "http://localhost:5173",
         "https://predict.actoryx.ai",
         "http://predict.actoryx.ai:3000",
+        "https://sindhubellamkonda1-lgtm.github.io",  # ← GitHub Pages
     ],
     allow_credentials=True,
     allow_methods=["*"],
